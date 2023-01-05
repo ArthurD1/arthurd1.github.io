@@ -104,7 +104,7 @@ analytics:
 author:
   name: "Arthur Degonde"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Senior Machine Learning Engineer"
+  bio: "Machine Learning Engineer"
   location: "Marseille, France"
   # email: arthur@degonde-mlengineer.com
   links:
@@ -114,9 +114,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/arthurdegonde"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"

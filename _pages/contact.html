@@ -11,56 +11,34 @@ permalink: /contact/
       don't hesitate to reach out!
     </p>
     <form
-      action="https://formsubmit.co/arthur@degonde-mlengineer.com"
+      action="https://formsubmit.co/51eb70f04c03b185c1080b497008d122"
       method="POST"
+      enctype="multipart/form-data"
     >
-      <div class="field half first">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-      </div>
+      <input type="hidden" name="_replyto" style="display: none" />
+      <input type="hidden" name="_subject" value="New submission!" />
       <input
         type="hidden"
         name="_next"
-        value="https://www.degonde-mlengineer.com/thankyou.html"
+        value="https://www.degonde-mlengineer.com/thankyou"
       />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="text" name="_honey" style="display: none" />
+
+      <div class="field half first">
+        <label for="name">Name</label>
+        <input type="text" name="name" required />
+      </div>
       <div class="field half">
-        <label for="email"> Email </label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email Address"
-        />
-        <input type="hidden" name="_replyto" />
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email Address" required />
       </div>
       <div class="field">
         <label for="message">Message</label>
-        <textarea name="message" id="message" rows="6"></textarea>
+        <textarea name="message" placeholder="Your message here"></textarea>
       </div>
-      <ul class="actions">
-        <li><input type="submit" value="Send Message" class="button" /></li>
-      </ul>
-      <input type="hidden" name="_subject" value="New submission!" />
-      <!-- <input type="hidden" name="_captcha" value="true" /> -->
-      <input type="text" name="_honey" style="display: none" />
+      <input type="file" name="attachment" accept="image/*,.pdf"">
+      <button type="submit">Send</button>
     </form>
-  </div>
-</section>
-
-<section class="follow">
-  <div class="container">
-    <h2>Follow Me</h2>
-    <ul class="icons">
-      {% for link in site.social %}
-      <li>
-        <a
-          href="{{ link.url }}"
-          class="{{ link.icon }}"
-          title="{{ link.title }}"
-          ><span>{{ link.title }}</span></a
-        >
-      </li>
-      {% endfor %}
-    </ul>
   </div>
 </section>
