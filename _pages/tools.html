@@ -1,0 +1,11 @@
+---
+title: Machine Learning Tools
+permalink: /tools/
+collection: tools
+---
+
+A non exhaustive list of the machine learning/data science tools I have
+been using. {% for tool in site.tools %}
+<h3><a href="{{ tool.url_link }}">{{ tool.title }}</a></h3>
+<p>{{ tool.description }}</p>
+{% endfor %}

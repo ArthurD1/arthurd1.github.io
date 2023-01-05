@@ -12,5 +12,7 @@
 #   url: /sitemap/
 
 main:
+  - title: ML tools
+    url: /tools/
   - title: "contact"
     url: /contact/

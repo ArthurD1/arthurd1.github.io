@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arthur@degonde-mlengineer.com"
+      url: "/contact/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -287,3 +287,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:path/
