@@ -1,0 +1,66 @@
+---
+title: Contact
+permalink: /contact/
+---
+
+<section class="contact">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>
+      I'm always open to discussing new opportunities and collaborations. Please
+      don't hesitate to reach out!
+    </p>
+    <form
+      action="https://formsubmit.co/arthur@degonde-mlengineer.com"
+      method="POST"
+    >
+      <div class="field half first">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <input
+        type="hidden"
+        name="_next"
+        value="https://www.degonde-mlengineer.com/thankyou.html"
+      />
+      <div class="field half">
+        <label for="email"> Email </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Address"
+        />
+        <input type="hidden" name="_replyto" />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="6"></textarea>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" class="button" /></li>
+      </ul>
+      <input type="hidden" name="_subject" value="New submission!" />
+      <!-- <input type="hidden" name="_captcha" value="true" /> -->
+      <input type="text" name="_honey" style="display: none" />
+    </form>
+  </div>
+</section>
+
+<section class="follow">
+  <div class="container">
+    <h2>Follow Me</h2>
+    <ul class="icons">
+      {% for link in site.social %}
+      <li>
+        <a
+          href="{{ link.url }}"
+          class="{{ link.icon }}"
+          title="{{ link.title }}"
+          ><span>{{ link.title }}</span></a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
