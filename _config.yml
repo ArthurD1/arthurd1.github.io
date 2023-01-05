@@ -106,6 +106,8 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Machine Learning Engineer"
   location: "Marseille, France"
+  resume: /assets/files/cv.pdf
+  linkedin: arthurdegonde
   # email: arthur@degonde-mlengineer.com
   links:
     - label: "Email"
