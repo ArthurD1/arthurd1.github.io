@@ -15,9 +15,9 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "en-US"
-title: "Machine Learning Engineer"
+title: "Arthur Degonde"
 title_separator: "-"
-subtitle: "Freelance landing page"
+subtitle: "Machine Learning Engineer"
 name: "Arthur degonde"
 description: "A landing page for my freelance Machine Learning activity."
 url: https://arthurd1.github.io
@@ -57,7 +57,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-  hide: # true, false (default)
+  hide: true #true , false (default)
 search: # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
@@ -132,24 +132,13 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/arthurdegonde"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://github.com/arthurd1
+
 
 # Reading Files
 include:
@@ -287,7 +276,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 
 # Collections
 collections:

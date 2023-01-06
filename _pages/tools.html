@@ -1,11 +1,14 @@
 ---
-title: Machine Learning Tools
+title: My toolbox
 permalink: /tools/
 collection: tools
+header:
+  overlay_image: /assets/images/toolbox.jpeg
+  overlay_filter: rgba(18,7,41,0.35)
 ---
 
-A non exhaustive list of the machine learning/data science tools I have
-been using. {% for tool in site.tools %}
+A non exhaustive list of the machine learning/data science tools I have been
+using. {% for tool in site.tools %}
 <h3><a href="{{ tool.url_link }}">{{ tool.title }}</a></h3>
 <p>{{ tool.description }}</p>
 {% endfor %}
