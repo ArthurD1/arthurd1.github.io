@@ -40,3 +40,8 @@ gem "webrick", "~> 1.7"
 
 gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache", group: :jekyll_plugins
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-particles.js'
+end
+
