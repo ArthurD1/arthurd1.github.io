@@ -12,4 +12,4 @@ seo_title: Home | Arthur Degonde
 description: Landing page for my machine learning engineer activity as a freelance.
 ---
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->
