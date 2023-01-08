@@ -108,6 +108,7 @@ author:
   location: "Marseille, France"
   resume: /assets/files/cv.pdf
   linkedin: arthurdegonde
+  github: arthurd1
   # email: arthur@degonde-mlengineer.com
   links:
     - label: "Email"
@@ -116,15 +117,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/arthurdegonde"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/arthurd1"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url: "https://github.com/arthurd1"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
